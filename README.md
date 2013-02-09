@@ -1,4 +1,4 @@
-Windows8Grid provides an easy way of installing an IEDriverServer plus Selenium
+Windows8Grid provides an easy way of installing an IEDriverServer plus a Selenium
 Grid on Windows 8 to allow running remotely WebDriver tests on Internet Explorer 10.
 
 Quick Start
@@ -25,6 +25,6 @@ To run WebDriver tests on the grid point them to http://mywindows8:4444/wd/hub, 
     driver.get("http://www.google.com");
     assertEquals("Google", driver.getTitle());
     
-To stop the grid close the 2 "Selenium Grid ..." windows.
+To stop the grid close the two "Selenium Grid ..." windows.
 
 To easily re-launch the grid create a desktop shortcut for `startSeleniumGrid.bat`.
