@@ -21,9 +21,10 @@ You can check that the grid is running by browsing to http://mywindows8:4444/gri
 To run WebDriver tests on the grid point them to http://mywindows8:4444/wd/hub, i.e.:
 
     URL remoteAddress = new URL("http://mywindows8:4444/wd/hub");
-    WebDriver driver = new RemoteWebDriver (remoteAddress, DesiredCapabilities.internetExplorer();
+    WebDriver driver = new RemoteWebDriver (remoteAddress, DesiredCapabilities.internetExplorer());
     driver.get("http://www.google.com");
     assertEquals("Google", driver.getTitle());
+    driver.quit();
     
 To stop the grid close the two "Selenium Grid ..." windows.
 
