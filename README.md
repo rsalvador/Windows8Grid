@@ -12,7 +12,7 @@ Quick Start
 
     $ git clone git://github.com/rsalvador/Windows8Grid.git
     $ cd Windows8Grid
-    $ ./startSeleniumGrid.bat
+    $ .\startSeleniumGrid.bat
     
 Two windows named "Selenium Grid Hub" and "Selenium Grid Node" should open.
 
@@ -26,3 +26,5 @@ To run WebDriver tests on the grid point them to http://mywindows8:4444/wd/hub, 
     assertEquals("Google", driver.getTitle());
     
 To stop the grid close the 2 "Selenium Grid ..." windows.
+
+To easily re-launch the grid create a desktop shortcut for `startSeleniumGrid.bat`.
